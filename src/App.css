@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.container{
+  display:flex;
+  margin: 10vw;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#input,#output{
+  min-height: 350px;
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 2px solid black;  
+  padding: 10px;
+  min-width: 50%;
+  max-width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+#output::before{
+  content: "OUTPUT:";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  display: block;
+  opacity: 0.6;
+}
+ul,ol{
+  padding-left: 20px;
+}
+blockquote{
+  padding: 5px;
+  border-left: 7px solid #cccccc;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+img{
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+pre div{
+  padding: 10px !important;
+  
+}
+table{
+  border-spacing: 0;
+}
+td,th{
+  border: 1px solid #d6dce2;
+  padding: 7px;
+}
+@media only screen and (max-width:600px){
+
+ .container{
+   flex-direction: column;
+ }
+ 
+#input,#output{
+ 
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+} 
+}
+
+@media only screen and (max-height:500px){
+  #input,#output{
+  min-height: 150px;
+  max-height: 150px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
