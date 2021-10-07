@@ -37,7 +37,7 @@ export default function Basic_syntax() {
   return (
     <>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto' ,marginBottom: "30px"}} id="Overview">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto' ,marginBottom: "30px"}} id="Overview">
         <Typography variant="h4" gutterBottom component="div">
           Overview
         </Typography>
@@ -45,7 +45,7 @@ export default function Basic_syntax() {
           Nearly all Markdown applications support the basic syntax outlined in John Gruber’s original design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
         </Typography>
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto' ,marginBottom: "30px"}} id="Headings">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto' ,marginBottom: "30px"}} id="Headings">
         <Typography variant="h4" gutterBottom component="div">
           Headings
         </Typography>
@@ -53,7 +53,7 @@ export default function Basic_syntax() {
           To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three {"(<h3>)"}, use three number signs (e.g., ### My Header).
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -123,7 +123,7 @@ export default function Basic_syntax() {
 
 
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }}>
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }}>
         <Typography variant="h4" gutterBottom component="div">
           Alternate Syntax
         </Typography>
@@ -131,7 +131,7 @@ export default function Basic_syntax() {
           Alternatively, on the line below the text, add any number of == characters for heading level 1 or -- characters for heading level 2.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -165,7 +165,7 @@ export default function Basic_syntax() {
         </TableContainer>
       </Box>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="Paragraphs">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="Paragraphs">
         <Typography variant="h4" gutterBottom component="div">
           Paragraphs
         </Typography>
@@ -173,7 +173,7 @@ export default function Basic_syntax() {
           To create paragraphs, use a blank line to separate one or more lines of text.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -197,7 +197,7 @@ export default function Basic_syntax() {
           </Table>
         </TableContainer>
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="Bold">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="Bold">
         <Typography variant="h4" gutterBottom component="div">
           Bold
         </Typography>
@@ -205,7 +205,7 @@ export default function Basic_syntax() {
           To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -248,7 +248,7 @@ export default function Basic_syntax() {
         </TableContainer>
       </Box>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="Italic">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="Italic">
         <Typography variant="h4" gutterBottom component="div">
           Italic
         </Typography>
@@ -256,7 +256,7 @@ export default function Basic_syntax() {
           To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -299,7 +299,7 @@ export default function Basic_syntax() {
         </TableContainer>
       </Box>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="bi">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="bi">
         <Typography variant="h4" gutterBottom component="div">
           Bold and Italic
         </Typography>
@@ -307,7 +307,7 @@ export default function Basic_syntax() {
           To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -359,7 +359,7 @@ export default function Basic_syntax() {
         </TableContainer>
       </Box>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="ol">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="ol">
         <Typography variant="h4" gutterBottom component="div">
           Ordered Lists
         </Typography>
@@ -367,7 +367,7 @@ export default function Basic_syntax() {
           To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -402,7 +402,7 @@ export default function Basic_syntax() {
         </TableContainer>
       </Box>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="ul">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="ul">
         <Typography variant="h4" gutterBottom component="div">
           Unordered Lists
         </Typography>
@@ -410,7 +410,7 @@ export default function Basic_syntax() {
         To create an unordered list, add dashes {"(-)"}, asterisks {"(*)"}, or plus signs {"(+)"} in front of line items. Indent one or more items to create a nested list.
         </Typography>
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+          <Table sx={{ minWidth: 800 }} aria-label="customized table">
             <TableHead>
               <TableRow>
                 <StyledTableCell align="left">Markdown</StyledTableCell>
@@ -458,7 +458,7 @@ export default function Basic_syntax() {
       </Box>
 
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="Code">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="Code">
         <Typography variant="h4" gutterBottom component="div">
           Code
         </Typography>
@@ -469,7 +469,7 @@ export default function Basic_syntax() {
 
       </Box>
 
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="Blockquotes">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="Blockquotes">
         <Typography variant="h4" gutterBottom component="div">
           Blockquotes
         </Typography>
@@ -484,7 +484,7 @@ export default function Basic_syntax() {
         </Typography>
 
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="hr">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="hr">
         <Typography variant="h4" gutterBottom component="div">
           Horizontal Rules
         </Typography>
@@ -493,7 +493,7 @@ export default function Basic_syntax() {
         </Typography>
         <hr/>
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="Links">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="Links">
         <Typography variant="h4" gutterBottom component="div">
           Links
         </Typography>
@@ -505,7 +505,7 @@ export default function Basic_syntax() {
         </Typography>
 
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="images">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="images">
         <Typography variant="h4" gutterBottom component="div">
           Images
         </Typography>
@@ -517,7 +517,7 @@ export default function Basic_syntax() {
         </Typography>
 
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="images">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="images">
         <Typography variant="h4" gutterBottom component="div">
           Tables
         </Typography>
@@ -537,7 +537,7 @@ export default function Basic_syntax() {
           {"| Paragraph   | Text        |"}
         </Typography>
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="images">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="images">
         <Typography variant="h4" gutterBottom component="div">
           Strikethrough
         </Typography>
@@ -555,7 +555,7 @@ export default function Basic_syntax() {
         </Typography>
         
       </Box>
-      <Box sx={{ width: '90%', maxWidth: 700, margin: 'auto',marginBottom: "30px" }} id="images">
+      <Box sx={{ width: '90%', maxWidth: 800, margin: 'auto',marginBottom: "30px" }} id="images">
         <Typography variant="h4" gutterBottom component="div">
           Task Lists
         </Typography>
